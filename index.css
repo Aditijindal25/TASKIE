@@ -1,0 +1,32 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #F7F6F2;
+  --surface: #FFFFFF;
+  --border: #E4E2DA;
+  --text: #1C1B18;
+  --muted: #6B6960;
+  --accent: #2D5F3F;
+  --accent-light: #EAF3E6;
+  --accent-mid: #5A9E72;
+  --danger: #C0392B;
+  --danger-light: #FDECEA;
+  --font: 'DM Sans', sans-serif;
+  --serif: 'Instrument Serif', serif;
+  --radius: 8px;
+  --radius-lg: 12px;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+input, button, select, textarea {
+  font-family: var(--font);
+}
+
+button { cursor: pointer; }
